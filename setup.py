@@ -3,4 +3,4 @@
 period = "Overall"
 
 # Define number of tracks to get between 1 and 50
-tracks_num = 50
+tracks_num = 5
