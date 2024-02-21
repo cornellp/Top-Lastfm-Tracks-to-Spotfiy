@@ -15,12 +15,15 @@ This project uses the Last.fm API to fetch a user's top tracks and then uses the
 3. Set up your Spotify Developer account and create a new application. Note down the Client ID and Client Secret.
 4. Set up your Last.fm account and note down the API Key, API Secret, username, and password.
 5. Export these as environment variables in a .env file:
+    ```bash
      SPOTIPY_CLIENT_ID='your-spotify-client-id'
      SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
      API_KEY='your-lastfm-api-key'
      API_SECRET='your-lastfm-api-secret'
      LASTFM_USERNAME='your-lastfm-username'
      LASTFM_PASSWORD='your-lastfm-password'
+    ```
+
 6. Setup paramters in setup.py.
 
 ## Usage
